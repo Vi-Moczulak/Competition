@@ -1,0 +1,102 @@
+mat-card {
+    margin: 15px 15px;
+    border-radius: 25px;
+    color: white;
+}
+
+.position {
+    width: 15%;
+    color: rgb(11,37,77,0.2);
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.32px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.first{
+    background: linear-gradient(to bottom, rgb(210,235, 183), rgb(178, 228,211));
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+.second{
+    background: linear-gradient(to bottom, rgb(194,212,243), rgb(231,194,248));
+
+} 
+.third{
+    background: linear-gradient(to bottom, rgb(240, 210,194), rgb(218,217,214));
+}
+
+.information {
+    padding-left: 15px;
+    width: 85%;
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.lossBg {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(37, 16, 17));
+}
+
+.gainBg {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(12, 38, 26));
+}
+
+.loss {
+    color: rgb(255, 110, 110);
+}
+
+.gain {
+    color: rgb(135, 255, 199);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+    .column {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px
+    }
+}
+
+.spacing {
+    justify-content: space-between;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.userDetails {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.value {
+    font-size: 14px;
+    margin: 0;
+}
+
+.valueDesc {
+    font-size: 10px;
+    color: rgb(255, 255, 255, 0.5);
+    margin: 0;
+}
+
+.balance {
+    font-weight: bold;
+}
+
+.balanceDesc {
+    font-size: 10px;
+    margin: 0;
+}
