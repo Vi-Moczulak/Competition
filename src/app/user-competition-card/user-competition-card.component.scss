@@ -6,37 +6,36 @@ mat-card {
 
 .position {
     width: 15%;
-    color: rgb(11,37,77,0.2);
+    color: rgb(11, 37, 77, 0.2);
     font-family: Poppins;
     font-size: 33px;
     font-style: italic;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 1.32px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
-.first{
-    background: linear-gradient(to bottom, rgb(210,235, 183), rgb(178, 228,211));
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+.first {
+    background: linear-gradient(to bottom, rgb(210, 235, 183), rgb(178, 228, 211));
+}
+
+.second {
+    background: linear-gradient(to bottom, rgb(194, 212, 243), rgb(231, 194, 248));
 
 }
-.second{
-    background: linear-gradient(to bottom, rgb(194,212,243), rgb(231,194,248));
 
-} 
-.third{
-    background: linear-gradient(to bottom, rgb(240, 210,194), rgb(218,217,214));
+.third {
+    background: linear-gradient(to bottom, rgb(240, 210, 194), rgb(218, 217, 214));
 }
 
 .information {
     padding-left: 15px;
     width: 85%;
 
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .lossBg {
