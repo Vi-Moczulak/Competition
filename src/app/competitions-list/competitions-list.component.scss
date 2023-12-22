@@ -2,6 +2,21 @@
     margin: 30px 15px;
 
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.stick{
+    bottom: 100px !important;
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(to bottom left, rgb(0,128,255), rgb(0,207,200));
+    color: #fff !important;
+    position: fixed;
+    right: 10px;
+    z-index: 999;
+}
+
+button.stick:hover{
+    background: linear-gradient(to top right, rgb(0,128,255), rgb(0,207,200));
 }

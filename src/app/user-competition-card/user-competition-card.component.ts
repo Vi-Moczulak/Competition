@@ -15,14 +15,12 @@ export class UserCompetitionCardComponent implements OnInit{
   userCompetitionData: any;
   public math = Math;
 
-  colors = []
   positions = ['st', 'nd', 'rd']
   constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
     this.user = this.dataService.getUser(this.userId);
     this.userCompetitionData = this.user?.competitions[this.competitionId];
-    console.log(this.userCompetitionData)
   }
 };
 
